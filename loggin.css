@@ -1,8 +1,11 @@
 .main{
+    align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.236);
     margin-left: 350px;
     margin-right: 350px;
-    padding-bottom: 300px;
+    margin-top: 0;
+    margin-bottom: 350px;
+    padding-bottom: 350px;
     text-align: center;
 }
 #head1{
@@ -31,5 +34,10 @@ input{
 background-color: rgba(0, 0, 250, 0.775);
 border-radius: 30px;
 padding-top: 8px;
+
+}
+.boxfacebook{
+    border: 1px solid rgba(0, 0, 0, 0.275);
+    margin: 30px;
 
 }
