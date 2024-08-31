@@ -1,0 +1,35 @@
+.main{
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+#head1{
+    padding:10px;
+    display: inline-flex;
+    font-style: italic;
+    font-size: 25px;
+}
+.user
+{
+    margin: 20px;
+}
+.same{
+    margin: 10px;
+}
+input{
+    background-color: rgba(91, 231, 191, 0.496);
+    height: 40px;
+    width: 250px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+
+}
+ #log{
+    color: white;
+background-color: rgba(0, 0, 250, 0.775);
+border-radius: 30px;
+padding-top: 8px;
+
+}
