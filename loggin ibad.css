@@ -1,12 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    align-content: center;
+}
 .main{
-    align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.236);
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 0;
-    margin-bottom: 350px;
-    padding-bottom: 350px;
+    margin: 0 auto;
+    padding: 2em;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+
 }
 #head1{
     padding:10px;
