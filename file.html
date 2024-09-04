@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templet</title>
+    <style>
+        body {
+            background-color: black;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            border: 2px solid black;
+            height: 80vh;
+            width: 29vw;
+            position: relative;
+            top: 90px;
+            left: 570px;
+            background-color: aliceblue;
+            border-radius: 20px;
+            background-color: rgba(164, 246, 219, 0.459);
+
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+        span {
+            padding: 50px;
+            position: relative;
+            top: 20px;
+            right: 5px;
+        }
+
+        form {
+            position: relative;
+            top: 30px;
+            left: 70px;
+
+        }
+
+        #button {
+            height: 30px;
+            width: 60px;
+            border-radius: 15px;
+            background-color: rgb(83, 213, 166);
+
+
+        }
+
+        #button:hover {
+            background-color: rgb(133, 234, 148);
+        }
+
+        #b2:hover {
+            background-color: rgb(133, 234, 148);
+        }
+
+        #b2 {
+            position: relative;
+            left: 20px;
+            height: 30px;
+            width: 80px;
+            border-radius: 15px;
+            background-color: rgb(83, 213, 166);
+            
+        }
+
+        dl > dt {
+            font-weight: bolder;
+            font-size: xx-large;
+            text-align: center;
+            text-decoration: dashed;
+        }
+        #bb{
+            position: relative;
+            left: 140px;
+            height: 30px;
+            width: 90px;
+            border-radius: 15px;
+            background-color: rgba(10, 10, 247, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <span>
+
+            <img src="pexels-st0kes-1741796897-28035054.jpg" height="350px" width="400px" alt="img">
+
+        </span>
+        <form action="post">
+            <input type="button" name="button" id="button" value="City">
+            <input type="button" name="b2" id="b2" value="Buildings">
+        </form>
+        <br>
+        <br>
+        <br>
+        <dl>
+            <dt id="topic">City Life</dt>
+            <br>
+            <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eligendi dolore aliquam eos, ratione atque
+                eaque recusandae natus maiores beatae unde tempore ex iure, explicabo possimus quas nihil architecto,
+                veritatis incidunt magnam accusamus? Rerum, consequuntur.......
+            </dd>
+        </dl>
+        <br>
+        <form action="post">
+            <input type="button" name="bb" id="bb" value="Read more">
+        </form>
+
+    </div>
+</body>
+
+</html>
